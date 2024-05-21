@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mainGrid{
+    display: inline-grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+}
+
+.universo{
+    border: 1px solid black;
+    padding: 3vh;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+}
+
+.division{
+    border: 1px solid black;
+    width: 8vh;
+    height: 8vh;
+    display: grid;
+}
