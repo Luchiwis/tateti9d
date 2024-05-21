@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root{
+    --blackborder: 1px solid black;
+}
+
+.mainGrid{
+    display: inline-grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+}
+
+.universo{
+    padding: 3vh;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+}
+
+.division{
+    width: 8vh;
+    height: 8vh;
+    display: grid;
+    border-radius: 5px;
+}
+
+.tl{
+    border-bottom: var(--blackborder);
+    border-right: var(--blackborder);
+}
+.tm{
+    border-left: var(--blackborder);
+    border-bottom: var(--blackborder);
+    border-right: var(--blackborder);
+}
+.tr{
+    border-left: var(--blackborder);
+    border-bottom: var(--blackborder);
+}
+.ml{
+    border-right: var(--blackborder);
+    border-top: var(--blackborder);
+    border-bottom: var(--blackborder);
+}
+.mm{
+    border: var(--blackborder);
+}
+.mr{
+    border-top: var(--blackborder);
+    border-left: var(--blackborder);
+    border-bottom: var(--blackborder);
+}
+.bl{
+    border-top: var(--blackborder);
+    border-right: var(--blackborder);
+}
+.bm{
+    border-left: var(--blackborder);
+    border-top: var(--blackborder);
+    border-right: var(--blackborder);
+}
+.br{
+    border-top: var(--blackborder);
+    border-left: var(--blackborder);
+}
